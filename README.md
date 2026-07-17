@@ -39,7 +39,9 @@ An app for creating single and bulk configs without logging into the 3X-UI panel
 | Black Fox VPN (Windows/Android) | [balckfoxgroup/blackfox-vpn-installer](https://github.com/balckfoxgroup/blackfox-vpn-installer) |
 | Telegram | [@blackFoxVPNN](https://t.me/blackFoxVPNN) |
 
-**Current version:** 1.1.3 — [Download APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)
+**Current version:** 1.1.3 — [Download APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk) 
+
+
 Global language support: Full 10-language support is available across all current app editions and the website (foxnext.net): English, Persian (Farsi), Russian, Chinese, German, Uzbek, Turkish, Indonesian, Ukrainian, and Hindi.
 ---
 
