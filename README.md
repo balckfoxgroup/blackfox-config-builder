@@ -22,7 +22,7 @@
 
 | Platform | App | Status |
 |----------|-----|--------|
-| Android | **Black Fox Config Builder** | **Available** — v1.1.3 (Build 6) |
+| Android | **Black Fox Config Builder** | **Available** — v1.1.3 |
 
 ---
 
@@ -39,9 +39,7 @@ An app for creating single and bulk configs without logging into the 3X-UI panel
 | Black Fox VPN (Windows/Android) | [balckfoxgroup/blackfox-vpn-installer](https://github.com/balckfoxgroup/blackfox-vpn-installer) |
 | Telegram | [@blackFoxVPNN](https://t.me/blackFoxVPNN) |
 
-**Current version:** 1.1.3 (Build 6) — [Download APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)
-
-**Build 6:** Dual-server remote feed (blackfoxupdate.ir + foxnext.net) for version.json, wallet.json, news.json, and APK download.
+**Current version:** 1.1.3 — [Download APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)
 
 ---
 
@@ -58,9 +56,7 @@ An app for creating single and bulk configs without logging into the 3X-UI panel
 | Black Fox VPN (ویندوز/اندروید) | [balckfoxgroup/blackfox-vpn-installer](https://github.com/balckfoxgroup/blackfox-vpn-installer) |
 | تلگرام | [@blackFoxVPNN](https://t.me/blackFoxVPNN) |
 
-**نسخه فعلی:** 1.1.3 (Build 6) — [دانلود APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)
-
-**Build 6:** فید ریموت دو سرور (blackfoxupdate.ir + foxnext.net) برای version.json، wallet.json، news.json و دانلود APK.
+**نسخه فعلی:** 1.1.3 — [دانلود APK](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)
 
 ---
 
