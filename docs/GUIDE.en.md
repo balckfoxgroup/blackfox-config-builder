@@ -1,84 +1,125 @@
 # Black Fox Config Builder — User Guide (English)
 
-**Black Fox Config Builder** is designed to make it easier to access your VPN management panel (3x-ui) and create configs from your phone.
+**Product:** Black Fox Config Builder  
+**Current version:** v1.1.3 (Build 7)  
+**Download:** [Black-Fox-Config-Builder.apk](https://foxnext.net/downloads/Black-Fox-Config-Builder.apk)
 
-With this app, users no longer need to log in through a browser and manually build configs when managing the panel on a smartphone — they can create the configs they need quickly and easily.
+**Black Fox Config Builder** makes it easier to access your VPN management panel (3X-UI) and create configs from your phone.
+
+With this app, you no longer need the classic browser login workflow to build configs on a smartphone. You connect once with panel credentials and create single or bulk configs directly in the app.
+
+**Requirements**
+
+- Android 7.0 or newer (API 24+)  
+- 3X-UI panel version **3.3.0 or newer**  
+- Panel credentials from **Panel Login Info** in Black Fox Vpn Installer / BlackFox Vpn Android  
+
+---
 
 ## Part 1: Connect to the panel (Connection)
 
-To use the app, you must first connect to your 3x-ui panel.
+Open the **Connection** tab.
 
-Get the required information from **Panel Login Info** in Black Fox VPN Installer and enter it in the fields below:
+Enter the details from **Panel Login Info**:
 
-- **Panel URL:** Panel address
-- **Username:** Panel username
-- **Password:** Panel password
-- **API Key (optional):** If provided, connection and config creation may be slightly faster.
-- **Sub URI (optional):** This field is not required.
+- **Panel URL:** Panel address  
+- **Username:** Panel username  
+- **Password:** Panel password  
+- **API Key (optional):** If provided, connection and config creation may be faster. When an API Key is used, username/password fields can be disabled by the app.  
+- **Sub URI (optional):** Not required  
 
-After filling in the details, click **Connect**.
+Then tap **Connect**.
 
-If the connection succeeds, the status indicator at the top turns green and displays **Connected**.
+If the connection succeeds, the status indicator turns green and shows **Connected**.
 
 **Other options**
 
-- **Save:** Save login details for future use.
-- **Delete:** Clear saved credentials.
-- **Disconnect:** End the connection to the panel.
+- **Save:** Store login details for later use  
+- **Delete:** Clear saved credentials  
+- **Disconnect:** End the panel session  
 
-![Panel connection and single config](assets/screenshots/en-connection-single.png)
+If the panel version is older than 3.3.0, the app rejects the connection and asks you to update 3X-UI.
 
-## Part 2: Create a single config
+---
 
-To create a new config, open the **Single** section.
+## Part 2: Create a single config (Single)
 
-Fill in the following details:
+Open the **Single** tab.
 
-- **Config name:** Enter your preferred config name.
-- **Traffic (GB):** Set the allowed usage volume in gigabytes.
-- **Duration (days):** Enter the config validity period in days.
-- **Inbound:** From the Inbound list, select the port through which this config will connect to the internet.
+Fill in:
 
-After completing the fields, click **Create config**.
+- **Config name:** Preferred name, or use the random name helper  
+- **Traffic (GB):** Allowed usage volume (unlimited is supported where offered)  
+- **Duration (days):** Validity period (unlimited is supported where offered)  
+- **Inbound:** Select **one or more** enabled inbounds from the multi-select list  
 
-After a successful build, the following information is displayed:
+Tap **Create config**.
 
-- Config link (VLESS)
-- Subscription link
-- Config QR code
-- Subscription QR code
+After a successful create, the app shows:
 
-You can copy the link or use it by scanning the QR code.
+- Config link (VLESS)  
+- Subscription link  
+- Config QR code  
+- Subscription QR code  
 
-Finally, use **Clear page** to remove the displayed information.
+You can tap a QR/link area to copy, or scan the QR. Use **Clear page** when finished.
+
+---
 
 ## Part 3: Create bulk configs (Bulk)
 
-If you want to create multiple configs with the same settings, open the **Bulk** section.
+Open the **Bulk** tab when you need many configs with the same settings.
 
-Enter the following details:
+Enter:
 
-- **Base name:** Prefix for config names
-- **Traffic (GB):** Traffic limit per config
-- **Duration (days):** Validity period per config
-- **Count:** Number of configs to create
+- **Base name:** Prefix for generated names  
+- **Traffic (GB):** Per config  
+- **Duration (days):** Per config  
+- **Count:** How many configs to create  
+- **Inbound:** One or more inbounds (each selected inbound participates in creation)  
 
-After entering the details, click **Create bulk configs**.
+Tap **Create bulk configs**.
 
-All generated links are shown at the bottom of the page and can be copied or sent to users.
+A progress indicator appears; you can stop the run. Generated links appear at the bottom for copy/share.
+
+---
 
 ## Part 4: Config list (List)
 
-This section shows a list of all configs created with Black Fox Config Builder.
+The **List** tab shows configs created through Black Fox Config Builder on this device.
 
-Through the three-dot menu next to each config, you can access management options such as editing.
+From the three-dot menu (or multi-select actions) you can:
+
+- **Copy link**  
+- **Delete from panel** (requires an active panel connection)  
+- **Delete from list** (local history only)  
+
+There is no in-app “edit config” flow in the current release.
+
+---
 
 ## Part 5: Settings
 
-The following options are available in Settings:
+Available options:
 
-1. **Change app language** — You can change the application language from this section.
-2. **App update** — The app checks for updates automatically with your permission. A manual update option is also available when needed.
-3. **Log** — This section shows a log of operations performed in the app. If a problem occurs, you can review the last few lines and search them on Google to find a likely cause.
+1. **Change language** — 10 languages: English, Persian, Russian, Chinese, German, Uzbek, Turkish, Indonesian, Ukrainian, Hindi  
+2. **App update** — Startup check and manual check against dual hosts (`blackfoxupdate.ir` + `foxnext.net`). Force update is supported when the server requests it. Download file name: **Black-Fox-Config-Builder.apk**  
+3. **Activity log** — View, copy, or clear recent operations for troubleshooting  
 
-![Bulk config creation and settings](assets/screenshots/en-bulk-settings.png)
+---
+
+## Part 6: Contact
+
+The **Contact** tab includes website, email, GitHub, and Telegram links (channel, support, purchase/service bot, group).
+
+---
+
+## Screenshots
+
+![Panel connection and single config](assets/screenshots/en-connection-single.png)
+
+![Bulk config and settings](assets/screenshots/en-bulk-settings.png)
+
+---
+
+© Black Fox Security Team

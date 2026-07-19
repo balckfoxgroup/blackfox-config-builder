@@ -3,5 +3,5 @@
   "build": 7,
   "force_update": false,
   "download_url": "https://foxnext.net/downloads/Black-Fox-Config-Builder.apk",
-  "release_notes": "Build 6: Dual-server remote feed (blackfoxupdate.ir + foxnext.net) for version.json, wallet.json, news.json, and APK download."
+  "release_notes": "Build 7: Black Fox Config Builder Android — Connection/Single/Bulk/List/Settings/Contact, multi-inbound, delete from panel, 10 languages, 3X-UI 3.3.0+, dual-server updates."
 }
