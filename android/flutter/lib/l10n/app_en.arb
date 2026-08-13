@@ -1,0 +1,287 @@
+{
+  "@@locale": "en",
+  "appTitle": "Black Fox Config Builder",
+  "selectLanguagePrompt": "Please select your language",
+  "languageFa": "فارسی",
+  "languageEn": "English",
+  "languageRu": "Русский",
+  "languageZh": "中文",
+  "languageButton": "Language",
+  "navConnection": "Connection",
+  "navSingle": "Single",
+  "navBulk": "Bulk",
+  "navList": "List",
+  "connected": "Connected",
+  "disconnected": "Disconnected",
+  "connectToPanel": "Connect to 3X-UI Panel",
+  "panelUrl": "Panel URL",
+  "username": "Username",
+  "password": "Password",
+  "apiKeyOptional": "API Key (optional)",
+  "subUriOptional": "Sub URI (optional)",
+  "connect": "Connect",
+  "disconnect": "Disconnect",
+  "save": "Save",
+  "delete": "Delete",
+  "requiredField": "Required",
+  "connecting": "Connecting to panel…",
+  "connectionEstablished": "Connected. Session remains active until disconnected.",
+  "disconnecting": "Disconnecting…",
+  "connectionClosed": "Connection closed.",
+  "panelSaved": "Panel settings saved.",
+  "panelCleared": "Saved settings cleared.",
+  "configName": "Config name",
+  "baseName": "Base name",
+  "count": "Count",
+  "trafficGb": "Traffic (GB)",
+  "durationDays": "Duration (days)",
+  "inboundPort": "Inbound port",
+  "createConfig": "Create config",
+  "createBulkConfig": "Create bulk configs",
+  "clearPage": "Clear page",
+  "cancel": "Cancel",
+  "close": "Close",
+  "clear": "Clear",
+  "pageCleared": "Page cleared.",
+  "clearPageTitle": "Clear page",
+  "clearPageFormConfirm": "Are you sure you want to clear the form?\n\nThis action cannot be undone.",
+  "clearBulkConfirm": "Are you sure you want to clear the generated config list?\n\nThis action cannot be undone.",
+  "connectFirst": "Connect to the panel from the Connection tab first.",
+  "savePanelFirst": "Save panel settings first.",
+  "configNameRequired": "Config name is required.",
+  "baseNameAndCountRequired": "Base name and count are required.",
+  "v2rayHint": "Use the Sub link in v2rayNG to show name, traffic and expiry.",
+  "configLink": "Config link:",
+  "subLink": "Sub link:",
+  "qrConfig": "Config QR",
+  "qrSub": "Sub QR",
+  "tapToCopy": "Tap to copy",
+  "copied": "{label} copied",
+  "@copied": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "selectAll": "Select all",
+  "selectedCount": "Selected: {count}",
+  "@selectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "copyLink": "Copy link",
+  "deleteFromPanel": "Delete from panel",
+  "deleteFromList": "Delete from list",
+  "noConfigsYet": "No configs created yet.",
+  "deleteFromListTitle": "Delete from list",
+  "deleteFromListSingle": "Remove this config from the local list?\n\nThis does not delete the user from the server.",
+  "deleteFromListMultiple": "Remove selected items from the local list?\n\nThis does not delete users from the server.",
+  "deleteFromPanelTitle": "Delete from panel",
+  "deleteFromPanelSingle": "Delete this user from the 3X-UI panel?\n\nThis action cannot be undone.",
+  "deleteFromPanelMultiple": "Delete selected users from the panel?\n\nThis action cannot be undone.",
+  "deletePanelResultTitle": "Delete from panel result",
+  "successCount": "Success: {count}",
+  "@successCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "failureCount": "Failed: {count}",
+  "@failureCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "errors": "Errors:",
+  "configDeletedFromPanel": "Config deleted from panel",
+  "configDeletedFromList": "Config removed from list",
+  "configsDeletedFromList": "Selected items removed from list",
+  "noLinksToCopy": "No links to copy.",
+  "linkCopied": "Link copied",
+  "linksCopied": "{count} links copied",
+  "@linksCopied": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "connectPanelFirst": "Connect to the panel first.",
+  "stop": "Stop",
+  "linkNumber": "Link number",
+  "copy": "Copy",
+  "configLinkColumn": "Config link",
+  "subLinkColumn": "Sub link",
+  "bulkLinksPlaceholder": "Generated links will appear here.",
+  "singleResultPlaceholder": "Created config result will appear here.",
+  "linksCopiedByIndex": "Links #{index} copied",
+  "@linksCopiedByIndex": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "indexCopied": "#{index} copied",
+  "@indexCopied": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "invalidIndex": "Enter a valid number.",
+  "linkNotFoundByIndex": "No link found with this number.",
+  "daysCount": "{count} days",
+  "@daysCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "navContact": "Contact",
+  "contactTitle": "🌐 Black Fox Contact 🌐",
+  "contactWebsiteDisplay": "WWW.foxnext.net",
+  "contactWebsiteLink": "http://foxnext.net/",
+  "contactEmailDisplay": "support@foxnext.net",
+  "contactEmailLink": "mailto:support@foxnext.net",
+  "contactGithubDisplay": "github.com/balckfoxgroup",
+  "contactGithubLink": "https://github.com/balckfoxgroup",
+  "contactChannel": "📢 Official Channel:",
+  "contactChannelLink": "@BlackFoxVpnn",
+  "contactSupport": "🛠 Support:",
+  "contactSupportLink": "@HiBlackFoxVpn",
+  "contactBot": "🤖 Purchase & Service Bot:",
+  "contactBotLink": "@BlackFoxVpn_bot",
+  "contactGroup": "💬 Black Fox Group:",
+  "contactGroupLink": "@Black_Fox_Group",
+  "contactTelegramNote": "All contact accounts are Telegram. Tap to open.",
+  "contactVersion": "App version:",
+  "contactThanks": "❤️ Thank you for being part of the Black Fox family!",
+  "toastConnecting": "Connecting...",
+  "toastConnectSuccess": "Connected successfully.",
+  "toastConnectFailed": "Connection failed.",
+  "toastDisconnecting": "Disconnecting...",
+  "toastDisconnectSuccess": "Connection closed.",
+  "toastDisconnectFailed": "Failed to disconnect.",
+  "toastSaving": "Saving...",
+  "toastSaveSuccess": "Saved successfully.",
+  "toastSaveFailed": "Save failed.",
+  "toastDeleting": "Deleting...",
+  "toastDeleteSuccess": "Deleted successfully.",
+  "toastDeleteFailed": "Delete failed.",
+  "navSettings": "Settings",
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsProgramUpdate": "Program update",
+  "settingsCurrentVersion": "Current version",
+  "settingsCheckUpdates": "Check for updates",
+  "settingsUpToDate": "You are using the latest version.",
+  "updateAvailableTitle": "Update available",
+  "updateAvailableBody": "A new version is available.\n\nCurrent: {current}\nLatest: {latest}",
+  "@updateAvailableBody": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "latest": {
+        "type": "String"
+      }
+    }
+  },
+  "updateNow": "Update",
+  "updateLater": "Later",
+  "updateDownloading": "Downloading update…",
+  "updateDownloadProgress": "Progress: {percent}%",
+  "@updateDownloadProgress": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "updateCheckFailed": "Could not check for updates.",
+  "updateDownloadFailed": "Update download failed.",
+  "panelVersionIncompatible": "Panel version is not supported. Please update 3X-UI to 3.3.0 or newer.",
+  "apiKey": "API Key",
+  "settingsActivityLog": "Activity log",
+  "settingsCopyLog": "Copy log",
+  "settingsClearLog": "Clear log",
+  "settingsLogCopied": "Log copied to clipboard.",
+  "settingsLogEmpty": "No activity yet. Connect to the panel or create a config to see logs here.",
+  "settingsLogCleared": "Activity log cleared.",
+  "unlimited": "Unlimited",
+  "unlimitedHint": "0 = unlimited",
+  "generateRandomName": "Generate random name",
+  "selectInbounds": "Select inbounds",
+  "refreshInbounds": "Refresh inbounds",
+  "inboundEnabled": "Enabled",
+  "inboundDisabled": "Disabled",
+  "inboundNoRemark": "No remark",
+  "inboundOptionLabel": "{protocol} · {remark} · port {port} · {status}",
+  "@inboundOptionLabel": {
+    "placeholders": {
+      "protocol": {
+        "type": "String"
+      },
+      "remark": {
+        "type": "String"
+      },
+      "port": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "noInboundFound": "No inbounds found on the panel.",
+  "inboundListLoadFailed": "Could not load inbound list.",
+  "inboundSelectionRequired": "Select at least one inbound.",
+  "configNameInvalid": "Use English letters, numbers, spaces, and hyphens only.",
+  "configNameDuplicate": "This config name is already used. Choose another name or tap refresh.",
+  "remoteSectionTitle": "Updates & Remote Config",
+  "remoteRefreshBtn": "Refresh from server",
+  "remoteRefreshDone": "Remote config refreshed.",
+  "remoteWalletTitle": "Payment wallet (live)",
+  "remoteWalletUnavailable": "Wallet address unavailable — connect to the internet and refresh.",
+  "copyAddressWallet": "Copy wallet address",
+  "remoteServerVersion": "Server version: {version}",
+  "@remoteServerVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteServerUnknown": "unknown (offline)",
+  "remoteCurrentVersion": "Current version: {version} (build {build})",
+  "@remoteCurrentVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "build": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteNewsTitle": "Announcement",
+  "updateForceTitle": "Mandatory update required",
+  "updateForceBody": "This version is no longer supported. Download and install the latest release to continue.",
+  "languageDe": "Deutsch",
+  "languageUz": "Oʻzbek",
+  "languageTr": "Türkçe",
+  "languageId": "Bahasa Indonesia",
+  "languageUk": "Українська",
+  "languageHi": "हिन्दी"
+}

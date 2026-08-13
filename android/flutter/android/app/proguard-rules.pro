@@ -1,0 +1,2 @@
+-keep class mobile.** { *; }
+-keepclassmembers class mobile.Mobile { *; }

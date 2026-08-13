@@ -13,8 +13,39 @@
   <a href="https://foxnext.net">Website</a> •
   <a href="https://foxnext.net/downloads/Black-Fox-Config-Builder.apk">Black-Fox-Config-Builder.apk</a> •
   <a href="https://github.com/balckfoxgroup/blackfox-vpn-installer">Black Fox Vpn Installer</a> •
+  <a href="https://github.com/balckfoxgroup/smart-support-bot">Smart Support Bot</a> •
   <a href="https://t.me/blackFoxVPNN">Telegram</a>
 </p>
+
+<div dir="rtl">
+
+🤖 **Config Builder** به‌صورت **رایگان و متن‌باز (Open Source)** در اختیار عموم قرار گرفته است تا همه بتوانند آزادانه از آن استفاده کنند و در توسعه و بهبود آن مشارکت داشته باشند.
+
+⭐ اگر این پروژه برای شما مفید است، لطفاً با **Star ⭐ در GitHub** از ادامه این مسیر و توسعه پروژه حمایت کنید. حمایت شما انگیزه‌ای برای ادامه و ساخت پروژه‌های بهتر است.
+
+🦊 همچنین خوشحالیم که به **خانواده Black Fox** پیوسته‌اید. ❤️  
+امیدواریم در کنار هم بتوانیم پروژه‌های کاربردی و متن‌باز بیشتری توسعه دهیم.
+
+🚀 در کنار **Config Builder**، می‌توانید از سایر پروژه‌های **Black Fox** نیز دیدن کنید و از آن‌ها استفاده کنید.
+
+**از همراهی و حمایت شما سپاسگزاریم. 🙏**
+
+</div>
+
+---
+
+## Open Source (Android)
+
+سورس **اندروید** این پروژه متن‌باز است و در پوشه [`android/`](android/) قرار دارد (Flutter UI + Go/gomobile client برای 3X-UI).
+
+| بخش | مسیر |
+|------|------|
+| Flutter UI | [`android/flutter/`](android/flutter/) |
+| کلاینت Go (3X-UI) | [`android/go/`](android/go/) |
+| اسکریپت‌های بیلد | [`android/scripts/`](android/scripts/) |
+| راهنمای بیلد | [`android/README.md`](android/README.md) |
+
+برای بیلد محلی، فایل‌های نمونه `key.properties.example` و `local.properties.example` را کپی و تکمیل کنید. فایل‌های keystore و رمزها در مخزن نیستند.
 
 ---
 

@@ -1,0 +1,4 @@
+key.properties
+local.properties
+*.jks
+*.keystore

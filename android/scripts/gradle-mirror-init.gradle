@@ -1,0 +1,31 @@
+// Gradle init script: prefer Aliyun mirrors when Google Maven is blocked.
+settingsEvaluated { settings ->
+    settings.pluginManagement {
+        repositories {
+            maven { url = uri("https://maven.aliyun.com/repository/google") }
+            maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
+            maven { url = uri("https://maven.aliyun.com/repository/public") }
+            gradlePluginPortal()
+            google()
+            mavenCentral()
+        }
+    }
+}
+
+allprojects {
+    buildscript {
+        repositories {
+            maven { url = uri("https://maven.aliyun.com/repository/google") }
+            maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
+            maven { url = uri("https://maven.aliyun.com/repository/public") }
+            google()
+            mavenCentral()
+        }
+    }
+    repositories {
+        maven { url = uri("https://maven.aliyun.com/repository/google") }
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
+        google()
+        mavenCentral()
+    }
+}

@@ -1,2 +1,39 @@
 .DS_Store
 Thumbs.db
+
+# Secrets / local machine
+**/key.properties
+**/local.properties
+**/keystore.txt
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pem
+.env
+.env.*
+
+# Flutter / Android build
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/Generated.xcconfig
+**/.gradle/
+**/local.properties
+**/captures/
+**/*.apk
+**/*.aab
+**/*.ipa
+**/app.*.symbols
+**/app.*.map.json
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Go / gomobile artifacts
+**/mobile.aar
+**/mobile-sources.jar
+**/pkg/

@@ -1,0 +1,6 @@
+# This file tracks properties used by the Flutter tool.
+version:
+  revision: manual
+  channel: stable
+
+project_type: app

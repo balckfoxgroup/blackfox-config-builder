@@ -1,0 +1,50 @@
+allprojects {
+    repositories {
+        maven { url = uri("https://storage.flutter-io.cn/download.flutter.io") }
+        maven { url = uri("https://storage.googleapis.com/download.flutter.io") }
+        google()
+        mavenCentral()
+        maven { url = uri("https://maven.aliyun.com/repository/google") }
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
+    }
+}
+
+subprojects {
+    buildscript {
+        repositories {
+            google()
+            mavenCentral()
+            gradlePluginPortal()
+            maven { url = uri("https://maven.aliyun.com/repository/google") }
+            maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
+            maven { url = uri("https://maven.aliyun.com/repository/public") }
+        }
+        configurations.classpath {
+            resolutionStrategy.eachDependency { details ->
+                if (details.requested.group == "com.android.tools.build" && details.requested.name == "gradle") {
+                    details.useVersion("8.9.1")
+                    details.because("Use project AGP version available in local cache")
+                }
+            }
+        }
+    }
+    afterEvaluate { project ->
+        if (project.hasProperty("android") && project.name == "jni") {
+            project.android {
+                ndkVersion = "27.0.12077973"
+            }
+        }
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

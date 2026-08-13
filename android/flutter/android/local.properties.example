@@ -1,0 +1,10 @@
+## Flutter SDK path (create after installing Flutter)
+
+Copy to `local.properties` in this folder:
+
+```
+sdk.dir=C:\\Users\\YOUR_USER\\AppData\\Local\\Android\\Sdk
+flutter.sdk=C:\\Users\\YOUR_USER\\flutter
+```
+
+Replace paths with your Android SDK and Flutter install locations.
